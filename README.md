@@ -117,6 +117,9 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
 LANGCHAIN_PROJECT="streamlit-chatbot"
 
+# For running chat_mood_without_ui.py chatbot
+MISTRAL_API_KEY="your_mistral_api_key"
+
 # -----------------------------
 # Future API Keys (Optional)
 # -----------------------------
