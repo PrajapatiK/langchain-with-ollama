@@ -24,3 +24,6 @@ langchain_mcp_adapters
 # Jupyter runtime (required to run .ipynb notebooks)
 jupyter>=1.1.1
 ipykernel
+
+# MistralAI integration
+langchain_mistralai
