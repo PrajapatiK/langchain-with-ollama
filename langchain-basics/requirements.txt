@@ -1,0 +1,32 @@
+# Core dependencies
+python-dotenv>=1.1.1
+pydantic>=2.12.3
+typing-extensions>=4.15.0
+
+# LangChain ecosystem
+langchain-community>=0.4
+langchain-core>=1.0.0
+langchain-ollama>=1.0.0
+langgraph>=1.0.0
+
+# Search tools
+ddgs>=9.5.2
+
+# Database / persistence
+psycopg
+psycopg-binary
+langgraph-checkpoint-sqlite
+langgraph-checkpoint-postgres
+
+# MCP integration
+langchain_mcp_adapters
+
+# Jupyter runtime (required to run .ipynb notebooks)
+jupyter>=1.1.1
+ipykernel
+
+# MistralAI integration
+langchain_mistralai
+
+# Unstructured data loaders
+# pip install "unstructured[all-docs]"
